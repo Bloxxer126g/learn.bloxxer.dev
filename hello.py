@@ -1,3 +1,1 @@
-MyName = "Jeff"
-
-print(MyName)
+int("hello")

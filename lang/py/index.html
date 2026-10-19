@@ -69,8 +69,23 @@
         <p>Python, alongside most major coding languages, allows you to store numbers in multiple different forms.</p>
         <p>The main two for python are <b>Integers</b> and <b>Floating Point Numbers</b></p>
         <i>(Commonly refered to as Ints and Floats)</i>
+
         <h3>Integers</h3>
-        <p>An integer represents any number with no decimal place <i>(called 'floating point' in python)</i></p>
+<p>An integer represents any number with no decimal place <i>(called 'floating point' in python)</i></p>
+
+        <div class="CodeBox">
+            <i class="head"># about-me.py</i>
+            <z>MyName = "Jeff"</z>
+            <z>MyAge = 21</z>
+            <z>print(MyName)</z>
+            <z>print(MyAge)</z>
+        </div>
+        <p>We can now define a MyAge variable, and print() it!</p>
+        <div class="CodeBox">
+            <i class="head"># output </i>
+            Jeff
+            <z>21</z>
+        </div>
         <br>
         <b>Click all of the ints! (Interactive game)</b>
                 <p style="color: rgb(94, 0, 0);"> ! Click all of the integers, and avoid clicking the floats!</p>
@@ -81,7 +96,77 @@
         <p>Floats <i>(Floating Point Numbers)</i> are any number that contain a decimal place. It does not matter what
         the number after the decimal place is, so both 12.75 and 48.0 are floats.</p>
         <p style="color: rgb(94, 0, 0);"> ! THINK - Can you think of any cases where floats would be useful?</p>
+        <h3>Booleans</h3>
+        <p>Booleans are very simple - they are effectively just YES and NO</p>
+        <p>We represent them in python using <b>True</b> and <b>False</b></p>
+        <i>Don't forget the capital letters!</i>
+        <div class="CodeBox">
+            <i class="head"># about-me.py</i>
+            <z>MyName = "Jeff"</z>
+            <z>MyAge = 21</z>
+            <z>IsAbleToCook = False</z>
+            <br>
+            <z>print(MyName)</z>
+            <z>print(MyAge)</z>
+            <z>print(IsAbleToCook)</z>
+        </div>
+        <p>Now we can print() whether you can cook!</p>
+        <div class="CodeBox">
+            <i class="head"># output </i>
+            Jeff
+            <z>21</z>
+            <z>False</z>
+        </div>
+        <h2>Simple Greeting program</h2>
+        <p>In this section, we will create a simple app where you can enter your name, and python will say hello.</p>
+        <h3>input()</h3>
+        <p>Another very useful function in python is the input() function</p>
+        <p>It allows us to ask the user for an input, which must be a string.</p>
+        <b>How can we use this?</b>
+        <div class="CodeBox">
+            <i class="head"># greeting.py</i>
+            <z>UserName = input("What is your name? ")</z>
+            <z>print("Hello, "+UserName+"!")</z>
+        </div>
+        <br>
+        <div class="CodeBox">
+            <i class="head"># output </i>
+            <z>What is your name? <i class="head">Bob</i></z>
+            <z>Hello, Bob!</z>
+        </div>
+        <p>This may look confusing at first, but once you break down the code it makes much more sense.</p>
+        <p>Firstly, we define a new 'UserName' Variable.</p>
+        <p>We then set the value of the variable to the result of the input() function</p>
+        <p>We put 'What is your name? ' in the input function, as that is the question to ask.</p>
+        <p>Next, we combine our UserName variable, which will be what the user typed, and a greeting message!</p>
+        <p>The combination of strings is called 'concatination'!</p>
+        <h2>Flowing between datatypes</h2>
+        <p>Sometimes it is neccesary to change the datatype of a value.</p>
+        <p>In example, let's say we need to ask for the user's age</p>
+        <p>We want their age as an int, but the input() function returns a string!</p>
+        <p>To solve this, we need to use the int() function</p>
+        <div class="CodeBox">
+            <i class="header"># See how long until a user turns 100</i>
+            <z>Age = input("How old are you? ")</z>
+            <z>Age = int(Age)</z>
+            <z>print( str( 100-Age ) +  " years until you turn 100")</z>
+        </div>
+        <p style="color: rgb(94, 0, 0);"> ! THINK - How does this program work?</p>
+        <ol>
+            <li>Asks the user for their age</li>
+            <li>Converts the Age string to an integer</li>
+            <li>Works out 100 - Age</li>
+            <li>Converts that value to a string</li>
+            <li>Concatinates it with a suffix to make it more readable.</li>
+        </ol>
+        <p>We use int() and str() to flow between datatypes in this example, but we can 
+            also use float() and bool() for their datatypes.
+        </p>
+
+        <p style="color: rgb(94, 0, 0);"> ! THINK - What happens if you enter a non-numerical value as your age?</p>
         
+        <h2>Syntax error!</h2>
+        <p>If you </p>
     </div>
 </body>
 </html>
