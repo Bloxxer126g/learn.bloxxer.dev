@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/lang/py/styles.css">
+
+    <title>bloxxer.dev</title>
+</head>
+<body>
+    <div id="center">
+        <h1>Python!</h1>
+        <h2>Installing Python</h2>
+        <p>Make sure you've <b>set up your VSCodium</b> before using this tutorial!</p>
+        <p style="color: rgb(94, 0, 0);"> ! Using your knowledge from before, install 'python.3.14' with winget</p>
+        <h3>Installing Python Extensions for VSC</h3>
+        <p>Once you've installed Python, you need to install some extensions for VSC.</p>
+        <p>These tell it how to use python scripts, and how to highlight <b>syntax</b></p>
+        <p style="color: rgb(94, 0, 0);"> ! Click on the puzzle piece icon at the side of your screen</p>
+        <img src="/lang/py/img/sidebar.png" style="width: 10%;">
+        <p style="color: rgb(94, 0, 0);"> ! Search and install 'ms-python' from this menu.</p>
+        <h2>Simple Beginnings.</h2>
+        <h3>Creating a python file.</h3>
+        <p style="color: rgb(94, 0, 0);"> ! Click back onto the folder icon.</p>
+        <p>Python files use the '.py' ending, so your PC knows how to open the file.</p>
+        <p style="color: rgb(94, 0, 0);"> ! Create a new file. Name it 'hello.py'</p>
+        <img src="/lang/py/img/newfile.png" style="width: 50%;">
+        <h3>Our first line</h3>
+        <p>Let's write our first line of python.</p>
+        <p>All we want to do is make the computer say (print) 'Hello, World!'</p>
+        <div class="CodeBox">
+            <i class="head"># hello.py</i>
+            print("Hello, World!")
+        </div>
+        <i>Don't worry, print does not send a message to your printer</i>
+        <p>Try running your program with the play button.</p>
+        <div class="CodeBox">
+            <i class="head"># output </i>
+            Hello, World!
+        </div>
+        <p>Well done! You just wrote your fist line of python!</p>
+        <p>Let's break it down.</p>
+        <p>Firstly, we have the function, 'print'. This is built in to python.</p>
+        <p>Next, we have brackets. This tells the computer that you want to run the function.</p>
+        <p>Finally, we have the text (or string in coding terms). Strings must go in "Quotation marks" or 'apostophies'</p>
+        <h2>Variables</h2>
+        <p>Variables can store data of many different types.</p>
+        <p>Let's define a variable!</p>
+        <div class="CodeBox">
+            <i class="head"># about-me.py</i>
+            <z>MyName = "Jeff"</z>
+            <z>print(MyName)</z>
+        </div>
+        <p>We define the 'MyName' Variable, and then call the print function.</p>
+        <div class="CodeBox">
+            <i class="head"># output </i>
+            Jeff
+        </div>
+        <p style="color: rgb(94, 0, 0);"> ! THINK - Why do we not add "Quotation marks" around MyName in this case?</p>
+        <i>Awnser: We do not use Quotation marks around MyName, as you only add quotation marks around <b>strings (text)</b>. MyName is a variable.</i>
+        <h2>Data Types</h2>
+        <h3>Strings</h3>
+        <p><b>Strings</b> are peices of text. They are UTF-8 encoded in python, but that's not important.</p>
+        <p>We defined a string, MyName in the previous chapter.</p>
+        <p>Strings are very useful, especially when trying to create a human-useable program.</p>
+        <p>We <b>always</b> have to wrap strings in "Quotation Marks", so Python knows how to hadle them.</p>
+        <h3>Numeric Values: Integers and Floating Point Numbers</h3>
+        <p>Python, alongside most major coding languages, allows you to store numbers in multiple different forms.</p>
+        <p>The main two for python are <b>Integers</b> and <b>Floating Point Numbers</b></p>
+        <i>(Commonly refered to as Ints and Floats)</i>
+        <h3>Integers</h3>
+        <p>An integer represents any number with no decimal place <i>(called 'floating point' in python)</i></p>
+        <br>
+        <b>Click all of the ints! (Interactive game)</b>
+        <br>
+        <iframe src="/Interactive.NOW/ClickInts" id="InteractiveElement" style="width: 80%; height: 200px; background-color: white;"></iframe>
+
+    </div>
+</body>
+</html>
