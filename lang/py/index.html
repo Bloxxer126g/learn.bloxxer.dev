@@ -176,14 +176,46 @@
             <z>Num1 = 7</z>
             <z>Num2 = 12</z>
             <z>if Num1 == Num2:</z>
-            <z></z>
+            <z>     print("Same")</z>
+            <z>else:</z>
+            <z>     print("Different")</z>
         </div>
+        <div class="CodeBox">
+            <i class="head"># Output</i>
+            <z>Different</z>
+        </div>
+        <p>We have to indent all of the code that we want to run after the <b>if statment</b></p>
+        <br>
+        <p style="color: rgb(94, 0, 0);"> ! THINK - Why do we have to use '==' for equals, instead of just '='?</p>
+        <i>If we just used '=', python would set the value of the variable to the value you are trying to compare it to.</i>
+        <br>
+        <h4>What else can we compare?</h4>
+        <p>We can use a few different 'operators':</p>
+        <div class="CodeBox">
+            <i class="head"># Check if the values are different</i>
+            <z>if 12 != 5:</z>
+            <z>     print("Different")</z>
+            <z><br></z><br>
+            <z>if 12 > 5</z>
+            <i class="head"># '>' is not the same as '>='. '>' checks if it is larger, while '>=' checks if it larger <b>or equal</b></i>
+            <z>     print("Larger")</z>
+        </div>
+        
 
         <h2>Loops</h2>
         <p>In some programs, we need to repeat sections of code multiple times.</p>
-        <i>We could just copy-paste the code multiple times, but that looks <b>unreadable</b></i>
+        <i>We could just copy-paste the code multiple times, but is much harder to read.</i>
+        <p>Instead, we can use loops!</p>
+
         <h3>The while loop</h3>
-        <p>The while loop is the loop you will use most</p>
+        <p>The while loop is the most commonly used loop in python.</p>
+
+        <div class="CodeBox">
+            <i class="head"># while-loop.py</i>
+            <z>while True:</z>
+            <z>     print("Hello!")</z>
+            <z></z>
+        </div>
 
     </div>
 </body>
