@@ -1,0 +1,3 @@
+document.getElementById("showquiz").addEventListener("click", ev=>{
+    document.getElementById("quizcode").innerHTML =  '<i class="head"># model answer</i><z>print("What is the best coding language")</z><z>print("Java [1]")</z><z>print("Python [2]")</z><z>print("Rust [3]")</z><z>print("Input the number of your answer")</z><z>usrChoice = input(">")</z><z>if usrChoice == "2":</z><z>        print("Yes! You got it right!")</z><z>else:</z><z>        print("Incorrect. It was Python!")<z>'
+})
